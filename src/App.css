@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+form {
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+
+}
+
+
+form button:hover {
+  background: #357abd;
+}
+/* Page wrapper */
+.getdata-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.logout-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Title */
+.getdata-container h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Table */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table head */
+.products-table thead {
+  background-color: #f3f4f6;
+}
+
+.products-table th,
+.products-table td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+/* Image */
+.products-table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Inputs during edit */
+.products-table input {
+  width: 90%;
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+/* Buttons common */
+.action-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+/* Edit */
+.edit-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Delete */
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+/* Update */
+.update-btn {
+  background-color: #16a34a;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #15803d;
+}
+
+/* Cancel */
+.cancel-btn {
+  background-color: #6b7280;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #4b5563;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .products-table th,
+  .products-table td {
+    padding: 10px;
+  }
+
+  .action-btn {
+    margin-bottom: 6px;
+  }
+}
