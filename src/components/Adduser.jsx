@@ -26,7 +26,7 @@ const handlesubmit=async(e)=>{
 
         if(res.status==201){
             alert("Data added successfull")
-            navigate("./Login")
+            navigate("/Login")
         }
         else{
             alert("Data added failed")
@@ -34,7 +34,8 @@ const handlesubmit=async(e)=>{
 
         
     }catch(error){
-        console.log(error);
+            alert("Data added failed")
+        
 
 
         
